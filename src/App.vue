@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="grey darken-4">
     <!-- <v-app-bar
       app
       color="primary"
@@ -36,9 +36,12 @@
         <v-icon>mdi-open-in-new</v-icon>
       </v-btn>
     </v-app-bar> -->
-    <v-content>
+
+    <!-- 004 navbar name depends on vue file -->
+    <navbar />
+    <v-main>
       <router-view></router-view>
-    </v-content>
+    </v-main>
     <v-main>
       <HelloWorld/>
     </v-main>
@@ -47,12 +50,14 @@
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import navbar from '@/components/navbar'; // '@/' = root
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
+    navbar,
   },
 
   data: () => ({
