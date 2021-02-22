@@ -8,8 +8,16 @@
 -->
 
 <template>
+  <div class="home">
   <h1> Home page </h1>
-</template>
+  <p class="red yellow--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nemo nam mollitia vel in, quidem itaque, perspiciatis est, accusantium qui quo enim ipsa tempore exercitationem maxime expedita sequi iste voluptas?</p>
+  <p class="pink lighten-red--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nobis. Necessitatibus nihil velit deleniti iusto in vero esse architecto officiis? Nobis laudantium sunt corrupti similique et dignissimos incidunt dolore dolor?</p>
+  <p class="pink lighten red--text text--darken-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, nobis. Necessitatibus nihil velit deleniti iusto in vero esse architecto officiis? Nobis laudantium sunt corrupti similique et dignissimos incidunt dolore dolor?</p>
+  <h1 class="display-4">Massive display</h1>
+  <p class="headline">this is a heading</p>
+  <p class="subheading font-weight-bold">this is a subheading</p>
+  </div>
+  </template>
 
 <script>
 // @ is an alias to /src
