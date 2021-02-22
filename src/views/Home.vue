@@ -16,6 +16,27 @@
   <h1 class="display-4">Massive display</h1>
   <p class="headline">this is a heading</p>
   <p class="subheading font-weight-bold">this is a subheading</p>
+  <!-- buttons -->
+  <v-btn>click me</v-btn>
+  <v-btn dark color="pink">pink button</v-btn>
+  <!-- no shadow button is depressed -->
+  <v-btn depressed dark color="pink">pink button</v-btn>
+  <!-- flat color controls text color and hover color -->
+  <v-btn flat color="pink">pink button</v-btn>
+
+
+  <br>
+  <v-btn depressed class="pink white--text">
+    <!-- go to material design icons to learn -->
+    <v-icon left>mdi-email</v-icon>
+    <span>email me</span>
+  </v-btn>
+  <v-btn depressed large class="yellow black--text">
+    <!-- go to material design icons to learn -->
+    <v-icon left>mdi-email</v-icon>
+    <span>dm me</span>
+  </v-btn>
+
   </div>
   </template>
 
