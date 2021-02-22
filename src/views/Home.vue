@@ -8,6 +8,7 @@
 -->
 
 <template>
+  <!-- 001 -->
   <div class="home">
   <h1> Home page </h1>
   <p class="red yellow--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nemo nam mollitia vel in, quidem itaque, perspiciatis est, accusantium qui quo enim ipsa tempore exercitationem maxime expedita sequi iste voluptas?</p>
@@ -16,7 +17,7 @@
   <h1 class="display-4">Massive display</h1>
   <p class="headline">this is a heading</p>
   <p class="subheading font-weight-bold">this is a subheading</p>
-  <!-- buttons -->
+  <!-- 002 buttons -->
   <v-btn>click me</v-btn>
   <v-btn dark color="pink">pink button</v-btn>
   <!-- no shadow button is depressed -->
@@ -37,6 +38,10 @@
     <span>dm me</span>
   </v-btn>
 
+  <!-- 003 breakpoints and visibility -->
+  <v-btn class="hidden-md-and-up">button hidden up</v-btn>
+  <v-btn class="hidden-md-and-down">button hidden down</v-btn>
+  <v-btn class="hidden-sm-only">tablet button</v-btn>
   </div>
   </template>
 
